@@ -36,58 +36,65 @@
             width:100% !important;
         }
 
-        @media only screen and (max-width: 320px){
-        #templateSidebar,
-        #templateBody{
-            display:block !important;
-            width:100% !important;
-        }
+        @media only screen and (max-width: 480px){
+            #templateSidebar,
+            #templateBody{
+                display:block !important;
+                width:100% !important;
+            }
 
-        .sidebarContent{
-            font-size:16px !important;
-            line-height:125% !important;
-        }
+            .sidebarContent{
+                font-size:16px !important;
+                line-height:125% !important;
+            }
 
-        .bodyImage{
-            height:auto !important;
-            max-width:320px !important;
-            width:100% !important;
-        }
+            .bodyImage{
+                height:auto !important;
+                max-width:480px !important;
+                width:100% !important;
+            }
 
-        .bodyContent{
-            font-size:18px !important;
-            line-height:125% !important;
+            .bodyContent{
+                font-size:18px !important;
+                line-height:125% !important;
+            }
         }
-    }
     </style>
 </head>
 <body>
-<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" align="center">
-    <tr>
-        <td align="left" valign="top">
-            <table align="right" border="0" cellpadding="10" cellspacing="0" width="400" id="templateBody">
-                <tr>
-                    <td class="bodyContent">
-                        <img src="http://placekitten.com/g/480/300" style="max-width:380px;" class="bodyImage" />
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top" class="bodyContent">
-                        <h1>Body</h1>
-                        Lorem ipsum dolor sit amet.
-                    </td>
-                </tr>
-            </table>
-            <table align="left" border="0" cellpadding="10" cellspacing="0" width="200" id="templateSidebar">
-                <tr>
-                    <td valign="top" class="sidebarContent">
-                        <h2>Sidebar</h2>
-                        Lorem ipsum dolor sit amet.
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+        <tr>
+            <td align="left" valign="top">
+                <table align="right" border="0" cellpadding="10" cellspacing="0" width="400" id="templateBody">
+                    <tr>
+                        <td class="bodyContent">
+                            <img src="http://placekitten.com/g/480/300" style="max-width:380px;" class="bodyImage" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" class="bodyContent">
+                            <h1>Body</h1>
+                            Lorem ipsum dolor sit amet.
+                        </td>
+                    </tr>
+                </table>
+                <table align="left" border="0" cellpadding="10" cellspacing="0" width="200" id="templateSidebar">
+                    <tr>
+                        <td valign="top" class="sidebarContent">
+                            <h2>Sidebar</h2>
+                            Lorem ipsum dolor sit amet.
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="emailButton" style="border-radius:3px; background-color:#6DC6DD;">
+                    <tr>
+                      <td align="center" valign="middle" class="emailButtonContent" style="padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px;">
+                        <a href="..." target="_blank" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; text-decoration:none;">Buy Now</a>
+                      </td>
+                    </tr>
+                  </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
